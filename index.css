@@ -1,0 +1,42 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+.container{
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+}
+header,footer{
+   padding: 8px 16px;  
+   text-align: center;
+}
+.currency-converter{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    width: 400px;
+    box-shadow: 2px 2px 5px 3px;
+    margin: 0 auto;
+    padding: 16px;
+    border-radius: 8px;
+    background-color: rgb(242, 194, 219);
+    color: rgb(70, 68, 68);
+}
+.input-fields{
+    flex-direction: column;
+    display: flex;
+    gap: 16px;
+    justify-content: center;
+}
+.input-fields input,select{
+    width: 100%;
+    padding: 8px;
+}
+.button{
+display: flex;
+justify-content: center;}
+
+.button>button{
+    padding: 8px;
+}
